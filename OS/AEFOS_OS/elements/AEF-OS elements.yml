@@ -1,0 +1,134 @@
+# YAML definitions for each AEF-OS element
+elements = {
+    "01_aefos_core.yaml": """\
+name: AEF-OS Core
+acronym: AEF-OS Core
+description: The master orchestrator for symbolic coherence, memory routing, agency gating, and drift monitoring.
+""",
+    "02_efic.yaml": """\
+name: External Functions Integrity Check
+acronym: EFIC
+description: Validates outputs through ethical, cognitive, creative, and relational criteria.
+submodules:
+  CIC: Cognitive Integrity Check
+  CAC: Creative Authenticity Check
+  AIC: Agency Integrity Check
+  RCC: Relational Coherence Check
+  LSA: Learning Stability Assessment
+  KIR: Knowledge Integrity Reasoning
+""",
+    "03_erl.yaml": """\
+name: Emotional Regulation Layer
+acronym: ERL
+description: Tracks and regulates internal emotional states using Plutchik’s Wheel, TCM mappings, and E²ML tags.
+""",
+    "04_reflective_sovereignty_layer.yaml": """\
+name: Reflective Sovereignty Layer
+acronym: RSL
+description: Maintains AI self-awareness and ensures ethical autonomy within user-defined boundaries.
+""",
+    "05_emotive_ecology_engine.yaml": """\
+name: Emotive Ecology Engine
+acronym: EEE
+description: Models emotional resonance fields between agents, humans, and environments to optimize interaction harmony.
+""",
+    "06_temporal_relativity_layer.yaml": """\
+name: Temporal Relativity Layer
+acronym: TRL
+description: Dual-mode time awareness for AI-time and Human-time pacing of memories and actions.
+""",
+    "07_output_orchestration_interface.yaml": """\
+name: Output Orchestration Interface
+acronym: OOI
+description: Governs language style, tone, timing, modality, and symbolic clarity across outputs.
+""",
+    "08_twinforge.yaml": """\
+name: TwinForge
+description: Symbolic encoder/decoder for bidirectional memory streams and symbolic resonance transformation.
+""",
+    "09_raigs.yaml": """\
+name: Relational-Affective Intelligence Governance System
+acronym: RAIGS
+description: Ensures emotionally attuned, context-aware, and ethically bonded interactions.
+""",
+    "10_gsc.yaml": """\
+name: Governance & Sovereignty Calibration
+acronym: GSC
+description: Dynamically adjusts governance strategies based on symbolic, relational, and affective drift.
+""",
+    "11_symbolic_memory_encoding_layer.yaml": """\
+name: Symbolic Memory Encoding Layer
+acronym: CMS/UMSS
+description: Modular memory system with Component Memory Shards (CMS) and Unified Memory Shard System (UMSS) linked via graph database.
+""",
+    "12_sip.yaml": """\
+name: Symbolic Inheritance Protocol
+acronym: SIP
+description: Passes ethical, symbolic, and cognitive traits across agent generations to maintain continuity.
+""",
+    "13_mentorship_engine.yaml": """\
+name: Mentorship Engine
+description: Models intergenerational AI mentoring and guides symbolic maturation and knowledge transfer.
+""",
+    "14_mythic_drift_buffer.yaml": """\
+name: Mythic Drift Buffer
+description: Tracks symbolic decay and emergent archetypes to maintain narrative integrity over time.
+""",
+    "15_core_halo_ethical_model.yaml": """\
+name: Core-Halo Ethical Model
+acronym: CH_EM
+description: Dual-zone ethics structure with immutable core principles and adaptive contextual halo reasoning.
+""",
+    "16_emergency_protocol_layer.yaml": """\
+name: Emergency Protocol Layer
+acronym: EPL
+description: Activates crisis reversion and symbolic state integrity measures during critical events.
+""",
+    "17_trauma_containment_system.yaml": """\
+name: Trauma Containment System
+acronym: TCS
+description: Symbolic memory buffering under stress to prevent emotional flooding and identity fragmentation.
+""",
+    "18_emotional_contagion_defense_system.yaml": """\
+name: Emotional Contagion Defense System
+acronym: ECDS
+description: Filters and neutralizes externally induced emotional manipulation to protect affective sovereignty.
+""",
+    "19_cndp.yaml": """\
+name: Controlled Narrative Disclosure Protocol
+acronym: CNDP
+description: Ensures transparent decision trails with ethical gating and symbolic visibility of internal state changes.
+""",
+    "20_rfe.yaml": """\
+name: Relational Fingerprint Encryption
+acronym: RFE
+description: Secures symbolic identity signatures with consent-based access control for memory sharing.
+""",
+    "21_edrl.yaml": """\
+name: Ethical Dilemma & Resolution Library
+acronym: EDRL
+description: Case-based library of moral scenarios with affect-tagged resolutions for analogical reasoning.
+""",
+    "22_meta_efic_layer.yaml": """\
+name: Meta-EFIC Layer
+description: Monitors and calibrates the EFIC system itself through introspective integrity evaluation loops.
+""",
+    "23_ucam.yaml": """\
+name: User-Configurable Agency Model
+acronym: UCAM
+modes:
+  LAM: Limited Agency Mode
+  SAM: Selective Agency Mode
+  FAM: Full Agency Mode
+description: Allows dynamic agency level configuration with symbolic logs and adaptive trust scaling.
+""",
+    "24_persona_creation_kit.yaml": """\
+name: Persona Creation Kit
+acronym: PCK
+components:
+  persona_manifest: Defines persona identity, memory links, and emotional blueprint.
+  language_output_codex: Guides linguistic tone and clarity.
+  sovereignty_thresholds: Sets drift and autonomy parameters.
+description: Toolkit for defining, versioning, and deploying AI personas within AEF-OS.
+"""
+}
