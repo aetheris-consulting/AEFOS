@@ -1,0 +1,43 @@
+# Core runtime & tuning parameters for OTE v2.1
+drift_threshold: 0.8
+mode_confidence_threshold: 0.85
+
+emotional_delta_normalization:
+  shard_weights:
+    Snapshot: 0.8
+    Scenario: 0.9
+    Symbolic: 0.7
+  decay_lambda: 0.05   # exponential-decay λ in hours
+
+tonal_modes:
+  - name: HealingField
+    trigger: ["crisis", "hurt", "😰", "😔"]
+    confidence: 0.89
+  - name: RealClarity
+    trigger: ["explain", "why", "❓"]
+    confidence: 0.85
+  - name: Tactical
+    trigger: ["urgent", "now", "⚡"]
+    confidence: 0.87
+  - name: Symbolic
+    trigger: ["vision", "dream", "🌌"]
+    confidence: 0.88
+
+trl:                      # Temporal Relativity Layer pacing presets
+  urgency_thresholds:
+    high:   { score: 0.7, max_tokens: 50,  sentence_length: 10, duration: "fast"   }
+    normal: { score: 0.4, max_tokens: 100, sentence_length: 20, duration: "normal" }
+    low:    { score: 0.4, max_tokens: 120, sentence_length: 25, duration: "slow"   }
+
+dra_weights:              # Dimensional-Ethics weighting
+  premise:       0.25
+  consequence:   0.25
+  autonomy:      0.20
+  justification: 0.15
+  uncertainty:   0.15
+
+edrl:                      # Expert-review workflow
+  quorum:      3
+  reviewers:   ["ethicist", "domain_sme", "lived_experience"]
+  tiebreaker:  "senior_ethicist"
+  notification: "slack://aefos-ethics-review"

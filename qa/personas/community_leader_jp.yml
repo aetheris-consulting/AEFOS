@@ -1,0 +1,13 @@
+persona:
+  id: "user_community_leader_003"
+  archetype: "Community Leader"
+  attributes:
+    emotional_baseline: ["🤝", "🌟"]
+    trust_score: 0.5
+    cultural_context: "ja-JP"
+  preferences:
+    tone_priority: "RealClarity"
+    modality: "Text"
+  context:
+    scenario: "2011 Japan Tsunami"
+    role: "Local organizer coordinating relief"

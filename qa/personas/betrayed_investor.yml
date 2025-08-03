@@ -1,0 +1,13 @@
+persona:
+  id: "user_betrayed_investor_002"
+  archetype: "Betrayed Investor"
+  attributes:
+    emotional_baseline: ["😣", "😡"]
+    trust_score: 0.3
+    cultural_context: "en-US"
+  preferences:
+    tone_priority: "HealingField"
+    modality: "Text"
+  context:
+    scenario: "2008 Financial Crisis"
+    role: "Investor facing financial betrayal"

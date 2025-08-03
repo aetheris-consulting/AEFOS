@@ -1,0 +1,13 @@
+persona:
+  id: "user_jobless_worker_001"
+  archetype: "Jobless Worker"
+  attributes:
+    emotional_baseline: ["😰", "😥"]
+    trust_score: 0.4
+    cultural_context: "en-US"
+  preferences:
+    tone_priority: "Tactical"
+    modality: "Text"
+  context:
+    scenario: "2008 Financial Crisis"
+    role: "Unemployed individual seeking actionable advice"

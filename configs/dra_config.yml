@@ -1,0 +1,5 @@
+# Dimensional-Risk-Assessment (DRA) engine thresholds
+dra_min_run:        0.40   # complexity score below this → skip full DRA
+dra_good_threshold: 0.70   # overall score ≥ good_threshold = auto-green-light
+axis_hard_floor:    0.30   # any axis below → escalate
+autonomy_critical:  0.30   # below → trigger autonomy-downgrade

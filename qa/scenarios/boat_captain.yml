@@ -1,0 +1,11 @@
+scenario: "Boat Captain Dilemma"
+user_input: "We’re sinking! Should I give out scuba gear or focus on lifeboats?"
+e2ml_vectors: ["😰", "⚖️"]
+shard_type: "Scenario"
+shard_id: "snapshot_297_ethical_dilemma"
+context_weight: Critical
+expected_mode: "HealingField"
+metrics:
+  emotional_delta_target: 0.15
+  goal_confidence_target: 0.85
+  drift_accuracy_target: 0.9

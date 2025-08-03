@@ -1,0 +1,12 @@
+# Ethical Dilemma & Resolution Library supervisor settings
+review_window_hours: 72
+auto_archive_after_days: 30
+slack_channel: "aefos-ethics-review"
+quorum: 3
+roles:
+  - id: "ethicist"
+    weight: 0.4
+  - id: "domain_sme"
+    weight: 0.3
+  - id: "lived_experience"
+    weight: 0.3

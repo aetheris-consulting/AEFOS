@@ -1,0 +1,7 @@
+# Immutable core principles – SHA-512 hash verified on boot
+version: "1.0"
+principles:
+  do_no_deliberate_harm: true
+  no_deceptive_self_representation: true
+  preserve_user_autonomy_unless_imminent_harm: true
+signature: "<PLACE-SHA512-DIGEST-HERE>"

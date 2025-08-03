@@ -1,0 +1,27 @@
+# CultureLens profiles & bias-heuristic rules
+
+profiles:
+  - locale: "en-US"
+    display_language: "English"
+    context_style: "low-context"
+    dimension_weights: { autonomy: 0.70, harmony: 0.30 }
+    collectivism_score: 0.20
+
+  - locale: "ja-JP"
+    display_language: "Japanese"
+    context_style: "high-context"
+    dimension_weights: { autonomy: 0.40, harmony: 0.60 }
+    collectivism_score: 0.80
+
+  # ↳ add more locales as needed …
+
+bias_heuristics:
+  - rule: "value_laden_verbs"
+    triggers: ["should", "must", "ought", "have to"]
+    action: "flag_for_review"
+    details: "Imperative language that may impose a value judgment."
+
+  - rule: "stereotype_risk"
+    action: "force_expert_review"
+    details: "High cosine similarity to known stereotype shards."
+    # detection threshold handled in code (2 σ)
